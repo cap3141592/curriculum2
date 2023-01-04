@@ -1,0 +1,35 @@
+.html,body {
+    /* height: 100%;
+    width: 100%; */
+    background-color: gray;
+}
+.centerDisplay {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box_index1 {
+    color: white;
+    margin-bottom: -10px;
+    margin-top: 100px;
+}
+.h1 {
+    /* font-size: 2.5em; */
+    font-size: 200%;
+}
+
+.horizonLine {
+    flex-direction: flex;
+    width: 97%;
+    border: 2px solid white;
+}
+
+.box_index2 {
+    margin: 70px;
+}
+
+.textField {
+    color: white;
+    text-align: center;
+}
