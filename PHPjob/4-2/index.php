@@ -39,11 +39,11 @@ $post = $getData->getPostData();
             <td><?php echo $value['id']; ?></td>
             <td><?php echo $value['title']; ?></td>
             <td><?php 
-            if ($value['category_no'] === 1) {
+            if ($value['category_no'] == 1) {
                 echo "食事";
-            } elseif ($value['category_no'] === 2) {
+            } elseif ($value['category_no'] == 2) {
                 echo "旅行";
-            } else {
+            } elseif ($value['category_no'] >= 3) {
                 echo "その他";
             }
             ?></td>
