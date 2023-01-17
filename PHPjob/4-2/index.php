@@ -43,7 +43,7 @@ $post = $getData->getPostData();
                 echo "食事";
             } elseif ($value['category_no'] == 2) {
                 echo "旅行";
-            } elseif ($value['category_no'] >= 3) {
+            } else {
                 echo "その他";
             }
             ?></td>
