@@ -82,12 +82,16 @@ input {
 table {
     width: 500px;
     text-align: center;
+    border-spacing: 0px;
 }
 tr {
     height: 25px;
 }
 tr:nth-child(1) {
     background-color: #f3f3fa;
+}
+td {
+    border: 1px #f1f1f8 solid;
 }
 #deleteColumn {
     display: flex;
