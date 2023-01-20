@@ -1,0 +1,98 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+
+a {
+    color: white;
+    text-decoration: none; /* ハイパーリンクの下線などを無効 */
+    display: block; /* ボタンの判定を親要素に合わせる */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+a p {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform : translate(50%, -55%);
+}
+
+.main {
+    display: flex;
+}
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.station {
+    margin-left: auto;
+    margin-right: auto; /* 中央揃え */
+    padding: 10px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 300px;
+    margin-top: 10px;
+    height: 24px;
+}
+.button {
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 7px;
+    margin: 15px;
+    margin-left: 0px;
+    background-color: #aaaaaa;
+    color: white;
+
+    white-space: nowrap; /* ボタン内の改行禁止 */
+}
+.submit {
+    background-color: #5599ff;
+}
+.delete {
+    width: 40px;
+    height: 23px;
+    border-radius: 5px;
+    margin: 0px;
+    background-color: #dd0000;
+}
+#signUp {
+    background-color: #33bbaa;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 1px;
+}
+
+table {
+    width: 500px;
+    text-align: center;
+}
+tr {
+    height: 25px;
+}
+tr:nth-child(1) {
+    background-color: #f3f3fa;
+}
+#deleteColumn {
+    display: flex;
+    justify-content: center;
+}
+#book_table {
+    width: 500px; /* tableクラスと同じ横幅に */
+}
